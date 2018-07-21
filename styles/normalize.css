@@ -37,6 +37,55 @@ div.content {
     margin-right: auto;
 }
 
+/*-----HEADING-----*/
+h1 {
+    margin-left: 30px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+
+/*--------FORM---------*/
+
+form fieldset {
+    margin: 2rem 10rem 0;
+    border: 1px solid grey;
+    padding: .5rem 2%;
+    width: 60%;
+    border-radius: 9px;
+    
+}
+
+form label.one, form div {
+    display: block;
+    padding-top:  1rem;
+    color: red;
+    font-size: .9rem;
+}
+
+form label.one input, form label.one select {
+    display: block;
+    font-size: 1rem;
+    border-radius: 9px;
+    border: solid 2px grey;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background: rgba(0,0,0,0.05);
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 9px;
+    padding: .75rem 1.5rem;
+    margin: 1rem 1rem 1rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+
 
 /*-----FOOTER-----*/
 .footer {
